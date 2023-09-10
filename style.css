@@ -1,0 +1,21 @@
+/* Remove padding and margin */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: rgb(240, 240, 240);
+}
