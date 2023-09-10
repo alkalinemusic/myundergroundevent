@@ -7,6 +7,11 @@
   border: 0;
 }
 
+a {
+  color: black;
+  font-size: 26px;
+}
+
 a:link,
 a:visited,
 a:hover,
