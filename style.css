@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: #e6e6e6;
 }
 
 a {
@@ -23,3 +24,121 @@ button {
   padding: 15px 25px;
   background-color: rgb(240, 240, 240);
 }
+
+/* input::after,
+label::after {
+  content: "\a";
+  white-space: pre;
+  line-height: 35px;
+} */
+
+label {
+  margin-left: 30px;
+}
+
+input {
+  line-height: 24px;
+  border: 1px solid rgb(187, 187, 187);
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+
+/* event post grid */
+
+.post-event {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 14px;
+  max-width: 600px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.grid-position1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.grid-position2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.grid-position3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.grid-position4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.grid-position5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.grid-position6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.grid-position7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.grid-position8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+.grid-position9 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.grid-position10 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.grid-position11 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.grid-position12 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+.grid-position13 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.grid-position14 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.grid-position15 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+.grid-position16 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+.grid-position17 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.grid-position18 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.grid-position19 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+.grid-position20 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+.grid-position21 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.grid-position22 {
+  grid-area: 6 / 2 / 7 / 3;
+}
+.grid-position23 {
+  grid-area: 6 / 3 / 7 / 4;
+}
+.grid-position24 {
+  grid-area: 6 / 4 / 7 / 5;
+}
+.grid-position25 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+.grid-position26 {
+  grid-area: 7 / 2 / 8 / 3;
+}
+.grid-position27 {
+  grid-area: 7 / 3 / 8 / 4;
+}
+.grid-position28 {
+  grid-area: 7 / 4 / 8 / 5;
+}
+
+/* event post grid */
