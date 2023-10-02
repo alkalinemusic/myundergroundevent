@@ -70,13 +70,6 @@ h1 {
   /* display: inline-block; */
 }
 
-/* input::after,
-label::after {
-  content: "\a";
-  white-space: pre;
-  line-height: 35px;
-} */
-
 label {
   margin-left: 30px;
 }
@@ -111,6 +104,7 @@ footer {
   text-align: center;
   vertical-align: auto;
   background-color: #fff;
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 .copyright-symbol {
