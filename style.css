@@ -48,10 +48,11 @@ h1 {
   grid-column-gap: 0px;
   justify-content: center;
   align-items: center;
-  height: 120vh;
+  height: 80vh;
 }
 
-button {
+.main-btn-right,
+.main-btn-left {
   /* flex: 0 0 20%; */
   padding: 55px 65px;
   background-color: rgb(252, 252, 252);
@@ -102,6 +103,21 @@ input {
 
 footer {
   margin-top: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  vertical-align: auto;
+  background-color: #fff;
+}
+
+.copyright-symbol {
+  width: 12px;
+  font-size: 11px;
+  position: relative;
+  bottom: 10px;
 }
 
 .grid-position1 {
