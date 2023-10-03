@@ -135,7 +135,11 @@ footer {
   box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
-#org-email {
+input {
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:last-of-type {
   margin-bottom: 100px;
 }
 
