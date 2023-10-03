@@ -135,6 +135,10 @@ footer {
   box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
+#org-email {
+  margin-bottom: 100px;
+}
+
 .copyright-symbol {
   width: 12px;
   font-size: 11px;
