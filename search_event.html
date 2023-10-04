@@ -29,10 +29,32 @@
       <h1 class="header-title">My Underground Event</h1>
     </header>
     <main>
-      <h2>Search for an event</h2>
-      <button>
-        <a href="index.html" target="">Main page</a>
+      <div class="post-event-header">
+        <h2>Search for an event</h2>
+      </div>
+      <button class="main-page-btn">
+        <a href="index.html" target="" class="main-page-btn-link">Main page</a>
       </button>
+      <div class="event-posting">
+        <form action="" class="post-event">
+          <label for="event-date" class="grid-position1">Event Date</label>
+          <input
+            type="date"
+            id="event-date"
+            name="event-date"
+            class="grid-position2"
+          />
+          <label for="event-type">Event Type</label>
+          <input type="time" id="event-type" name="event-type" />
+          <label for="event-location">Event Location</label>
+          <input type="text" id="event-location" name="location" />
+          <label for="location-radius">Radius</label>
+          <input type="text" id="location-radius" name="location-radius" />
+
+          <label for="event-style">Event Style</label>
+          <input type="text" id="event-style" name="event-style" />
+        </form>
+      </div>
     </main>
 
     <footer>
