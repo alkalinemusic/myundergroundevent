@@ -146,6 +146,26 @@ footer {
   bottom: 10px;
 }
 
+/* Details page */
+
+.event-details {
+  /* align-items: center; */
+  width: 50%;
+  margin: 0 auto;
+}
+
+.event-img {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+}
+
+.event-details-list {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 40px;
+}
+
 .grid-position1 {
   grid-area: 1 / 1 / 2 / 2;
 }
