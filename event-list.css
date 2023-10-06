@@ -1,15 +1,22 @@
 /* EVENT LIST PAGE */
 
+.event-list-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
 .event-list-container {
   width: 100%;
   display: inline-flex;
-  margin: 0 auto;
+  margin: 0 auto 35px auto;
   align-items: center;
   justify-content: center;
 }
 
 .event-list-img {
-  max-width: 200px;
+  max-width: 180px;
   /* height: 200px; */
 }
 
