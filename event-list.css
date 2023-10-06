@@ -1,0 +1,22 @@
+/* EVENT LIST PAGE */
+
+.event-list-container {
+  width: 100%;
+  display: inline-flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-list-img {
+  max-width: 200px;
+  /* height: 200px; */
+}
+
+.event-list {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 30px;
+}
