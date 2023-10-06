@@ -150,20 +150,24 @@ footer {
 
 .event-details {
   /* align-items: center; */
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  display: inline-flex;
 }
 
 .event-img {
-  display: inline-block;
-  width: 300px;
+  /* display: inline-block; */
+  margin: 0 auto;
+  max-width: 400px;
   height: auto;
 }
 
 .event-details-list {
-  display: inline-block;
+  /* display: inline-block; */
+  font-size: 22px;
+  line-height: 32px;
+  margin: 0 auto;
   list-style-type: none;
-  margin-left: 40px;
+  margin-left: -350px;
 }
 
 .grid-position1 {
